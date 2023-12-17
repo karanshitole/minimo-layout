@@ -1,0 +1,163 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ######################################### main-heroimg css start here########################################### */
+
+.main-heroImg{
+    padding: 70px;
+    margin-bottom: 30px;
+    background-color: var(--color-white);
+}
+
+.container{
+    width: 1180px;
+    margin: 0 auto;
+}
+
+.nav li{
+    display: inline-block;
+    height: 23px;
+}
+
+.main-heroImg .nav li a{
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 14px;
+    color:var(--color-primary);
+    line-height: 23px;
+}
+
+.main-heroImg .nav .lifestyle,.photodiary,.music{
+    margin-right: 95px;
+}
+
+
+.heroImg img{
+    width: 100%;
+    margin-top: 70px;
+}
+
+
+/* ############################################## photodiary css start  from here ################################################################*/
+
+.pri-heading{
+    color:var(--color-secondary);
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+
+.sec-heading{
+    color: var(--color-primary);
+    font-size: 30px;
+    margin-bottom: 40px;
+}
+
+.para{
+    color:var(--color-primary);
+    font-size: 14px;
+    margin-bottom: 50px;
+
+}
+
+.comment{
+    border: 1px solid #fff;
+    outline: none;
+    margin-bottom: 135px;
+    
+}
+
+.comment::placeholder{
+    color: var(--color-secondary);
+    font-size: 14px;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+/* ##################################################### lifestyle images css start here ###################################################### */
+
+.lifestyle-section{
+    width: 100%;
+    color:var(--color-ternary);
+    margin-bottom: 30px;
+}
+
+.lifestyle-section .para{
+    height: 65px;
+    overflow: hidden;
+    margin-bottom: 125px;
+}
+
+/* ##################################################### sign up css stare here ############################################################### */
+
+.signUp{
+    background-color:var(--text-color-primary);
+    padding: 70px 0;
+    margin-bottom: 30px;
+}
+
+.signUp-heading{
+    color: #333333;
+    font-size: 30px;
+    margin-bottom: 80px;
+}
+
+.email-address{
+    width: 325px;
+    border: 1px solid #f0f0f0;
+    background-color: var(--color-white);
+    outline: none;
+}
+
+.signUp button{
+    border: 1px solid var(--text-color-primary);
+    outline: none;
+    cursor: pointer;
+}
+
+/* ######################################################## lifestyle2 css start here ######################################################## */
+
+.liefstyle-2{
+    padding: 105px 0 70px 0;
+    margin-bottom: 30px;
+}
+
+.liefstyle-2 .para{
+    height: 65px;
+    overflow: hidden;
+    margin-bottom: 85px;
+}
+
+.btn {
+        color: #626262;
+        background-color: var(--color-white);
+        border: 1px solid #000;
+        outline: none;
+        font-size: 20px;
+        width: 160px;
+        height: 50px;
+    }
+
+    /* ######################################################## footer section css start ########################################################## */
+
+ .footer{
+    background-color: var(--text-color-primary);
+    padding: 40px 0 45px 0;
+    margin-top: 30px;
+ }  
+ 
+ .footer li{
+    margin-left: 20px;
+    display: inline-block;
+ }
+
+ .footer li a{
+    color: #000;
+    font-size: 14px;
+    
+ }
+
